@@ -20,13 +20,13 @@ try {
     $mail->isSMTP();
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
-    $mail->Username = 'yourgmail@gmail.com';
-    $mail->Password = 'your-app-password';
+    $mail->Username = 'droopyknot4@gmail.com';
+    $mail->Password = 'ilesanmiboluwatito 1';
     $mail->SMTPSecure = 'tls';
     $mail->Port = 587;
 
-    $mail->setFrom('yourgmail@gmail.com', 'Contact Form');
-    $mail->addAddress('yourgmail@gmail.com');
+    $mail->setFrom('droopyknot4@gmail.com', 'Contact Form');
+    $mail->addAddress('droopyknot4@gmail.com');
     $mail->addReplyTo($email, $name);
 
     $mail->isHTML(true);
